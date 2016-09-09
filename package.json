@@ -4,7 +4,7 @@
   "description": "electron_app",
   "main": "lib/main.js",
   "scripts": {
-    "test": "yes", 
+    "test": "yes",
     "start": "electron .",
     "build": "electron-packager . 'Fire Sale' --platform=all --arch=all --version=0.36.8"
   },
