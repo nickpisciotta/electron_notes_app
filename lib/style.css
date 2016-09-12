@@ -1,0 +1,40 @@
+textarea, input, div, button { outline: none; }
+
+.note-field, .all-notes {
+  margin-top: 0.5em;
+  min-height: 60vh;
+  max-width: 50%;
+  flex-grow: 1;
+  padding: 1em;
+  overflow: scroll;
+  float: left;
+}
+
+.note-field {
+  margin-bottom: 2em;
+  margin-left: 1em;
+}
+
+.all-notes {
+  font-size: 1.1em;
+  border: none;
+  background-color: rgb(238, 252, 250);
+  font-family: monospace;
+  white-space: pre;
+  margin-left: 5em;
+  margin-bottom: 3em;
+}
+
+body:after {
+    content:"";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    border-left: 2px groove; /*change these values to suit your liking*/
+}
+
+.title {
+  margin-left: 5em;
+}
