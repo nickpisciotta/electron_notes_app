@@ -6,8 +6,16 @@
     <link rel='stylesheet' href='style.css' type='text/css'
   </head>
   <body>
-    <h1>Test</h1>
+    <section id="left">
+      <h1 class='title'>Jot Down a Note</h1>
+      <textarea class="note-field" name="name" rows="4" cols="60"></textarea>
+    </section>
+    <section class="all-notes" id="right">
+      <div>
+      </div>
+    </section>
   </body>
+  <script type="text/jsx" src="./components/Button.js"></script>
   <script>
     require('./renderer')
   </script>
