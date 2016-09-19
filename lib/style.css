@@ -7,10 +7,10 @@ textarea, input, div, button { outline: none; }
   flex-grow: 1;
   padding: 1em;
   overflow: scroll;
-  float: left;
 }
 
 .note-field {
+  float: left;
   margin-bottom: 2em;
   margin-left: 1em;
 }
@@ -23,8 +23,14 @@ textarea, input, div, button { outline: none; }
   white-space: pre;
   margin-left: 5em;
   margin-bottom: 3em;
+  float: right;
 }
 
+.button {
+  position: absolute;
+  bottom: 3px;
+  left: 3px;
+}
 body:after {
     content:"";
     position: absolute;
